@@ -1,0 +1,169 @@
+/* <<===========Nav Bar============== >>*/
+ul{
+background-color: lightskyblue;
+padding: 25px;
+
+}
+ul li{
+    display: inline;
+    padding: 30px;
+    position: relative;
+    top: 2px;
+    left: 800px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+li:hover{
+    background-color: rgb(97, 180, 231);
+    transition: 1s;
+}
+#topic{
+    position:absolute;
+    top: 28px;
+    left: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    color: rgb(23, 139, 178);
+}
+#btn{
+    border:thin whitesmoke;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: lawngreen;
+    box-shadow: 0.8px 0.8px 0.8px 0.8px lightgray;
+}
+/* <<===========Nav Bar End==============>> */
+
+/*<<=================Content=================>>*/
+
+/* <-----------Home page Content------------> */
+#Hcont{
+    background-color: lightskyblue;
+    padding: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#img1{
+    float: right;
+    position: absolute;
+    bottom: 150px;
+    right: 70px;
+}
+/*<--------- Gallery Content----------> */
+#Acont{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+}
+#footer{
+    background-color: aqua;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 15px;
+}
+/* <----------Webpage content----------> */
+#webP{
+    background-color: lightskyblue;
+    padding: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#Wcont > h2{
+    text-align: center;
+    
+}
+#Wcont > h3{
+    color: blue;
+    display: inline;
+    padding-left: 250px;
+    
+}
+#Wcont1 > p{
+    display: inline;
+    padding-left: 140px;
+    font-size: larger;
+}
+#Wcont1 > h3{
+    text-align: center;
+}
+#Wcont2{
+    text-align: center;
+    font-size: larger;
+}
+
+/* <----------Aboutpage Content----------> */
+#AcontR {
+    float: right;
+    position: absolute;
+    left: 120vh;
+
+}
+#AcontR img{
+     position: absolute;
+     right: 120vh;
+     bottom: -15vh;
+    border-radius: 190px;
+}
+
+#AcontL {
+    position: absolute;
+    top: 60vh;
+    right: 100vh;
+}
+#AcontL img{
+    float: right;
+    position: absolute;
+    left: 130vh;
+    bottom: -12vh;
+    border-radius: 190px;
+}
+#AcontR1 {
+     float: right;
+     position: absolute;
+     top: 108vh;
+     left: 120vh;
+
+}
+#AcontR1 img{
+    position: absolute;
+    right: 110vh;
+    bottom: -13vh;
+    border-radius: 190px;
+} 
+/* <----------Aboutpage Content End----------> */
+
+/* <------------Contact Page------------> */
+
+#sidecont{
+    background-color: lightskyblue;
+    width: 100%;
+    padding: 59px;
+} 
+#form{
+    background-color: rgb(65, 141, 202);
+    text-align: center;
+    padding: 25px;
+    width: 300px;
+    height: 380px;
+    border-radius: 40px;
+    position: absolute;
+    left: 125vh;
+    bottom: 21.5vh;
+
+}
+form input{
+    border-radius: 10px;
+    padding: 5px;
+}
+#btn1{
+    border: 1px dotted gray;
+    border-radius: 10px;
+    background-color: springgreen; 
+}
+
+/* <------------Contact Page End------------> */
+
+#disc{
+    background-color: aliceblue;
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+}
